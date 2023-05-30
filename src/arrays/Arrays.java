@@ -8,7 +8,7 @@ public class Arrays {
         edades[1] = 15;
         edades[2] = 18;
 
-        for (int i = 0; i < edades.length ; i++) {
+        for (int i = 0; i < edades.length-2 ; i++) {
             System.out.println("edades["+i+"] = " + edades[i]);
         }
     }

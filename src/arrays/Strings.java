@@ -7,5 +7,6 @@ public class Strings {
         for (int i = 0; i < fruits.length ; i++){
             System.out.println("fruit is " + fruits[i]);
         }
+
     }
 }

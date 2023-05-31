@@ -1,3 +1,4 @@
+import j9_arrays.Persona;
 import numeros.Operadores;
 
 import java.util.Scanner;
@@ -5,10 +6,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Main main = new Main();
-        //main.func();
-        Operadores op = new Operadores();
-        op.print();
+        Persona p = new Persona();
+        p.setNombre("kenia");
+        p.setApellido("murillo");
+        p.setDireccion("apulo, ilopango, sansalvador");
+        System.out.println(p.toString());;
+        System.out.println("==========================");
+        System.out.println(p.getNombre()+p.getApellido()+ p.getDireccion());
+
+
+//        Main main = new Main();
+//        //main.func();
+//        Operadores op = new Operadores();
+//        op.print();
 
     }
 

@@ -1,4 +1,4 @@
-package arrays;
+package j9_arrays;
 
 public class Arrays {
 

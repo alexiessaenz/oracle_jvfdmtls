@@ -1,4 +1,4 @@
-package ejercicio;
+package j10_ejercicio;
 
 import static java.time.Month.*;
 

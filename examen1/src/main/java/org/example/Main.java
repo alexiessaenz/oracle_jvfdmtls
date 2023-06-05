@@ -51,18 +51,18 @@ public class Main {
 
         Cliente orden3 = new Cliente();//Estoy instaciando el arrays llamando el arrays
         orden3.setName("Moises");
-        Producto pr1 = new Producto("Camisa", 12.00);
-        Producto pr2 = new Producto("Pantalon", 16.50);
-        Producto pr3 = new Producto("Zapatos", 35.90);
-        Producto pr4 = new Producto("Short", 9.50);
-        Producto pr5 = new Producto("Toalla", 8.50);
-        Producto pr6 = new Producto("Pijama", 11.00);
-        orden3.agregarProducto(pr1);
-        orden3.agregarProducto(pr2);
-        orden3.agregarProducto(pr3);
-        orden3.agregarProducto(pr4);
-        orden3.agregarProducto(pr5);
-        orden3.agregarProducto(pr6);
+        Producto p1o3 = new Producto("Camisa", 12.00);
+        Producto p2o3 = new Producto("Pantalon", 16.50);
+        Producto p3o3 = new Producto("Zapatos", 35.90);
+        Producto p4o3 = new Producto("Short", 9.50);
+        Producto p5o3 = new Producto("Toalla", 8.50);
+        Producto p6o3 = new Producto("Pijama", 11.00);
+        orden3.agregarProducto(p1o3);
+        orden3.agregarProducto(p2o3);
+        orden3.agregarProducto(p3o3);
+        orden3.agregarProducto(p4o3);
+        orden3.agregarProducto(p5o3);
+        orden3.agregarProducto(p6o3);
 
         System.out.println("\n|======== prods ord 1 =========|");
         System.out.println("Nombre de cliente: " + orden1.getName());

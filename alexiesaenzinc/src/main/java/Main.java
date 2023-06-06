@@ -46,11 +46,12 @@ public class Main {
         orden1.agregarProducto(p11);
 
         Orden orden2 = new Orden();//Estoy instaciando el arrays llamando el arrays
-        Orden orden3 = new Orden();//Estoy instaciando el arrays llamando el arrays
         orden2.agregarProducto(p1);
         orden2.agregarProducto(p2);
         orden2.agregarProducto(p3);
         orden2.agregarProducto(p4);
+
+        Orden orden3 = new Orden();//Estoy instaciando el arrays llamando el arrays
 
         orden1.mostrarProductoArrays();
 //        orden1.calcularTotalOrden();

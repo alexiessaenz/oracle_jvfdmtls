@@ -44,11 +44,11 @@ public class Leon extends Felino{
         this.numManada = numManada;
     }
 
-    public Float getPotenciaRugidoDecibel() {
+    public Double getPotenciaRugidoDecibel() {
         return potenciaRugidoDecibel;
     }
 
-    public void setPotenciaRugidoDecibel(Float potenciaRugidoDecibel) {
+    public void setPotenciaRugidoDecibel(Double potenciaRugidoDecibel) {
         this.potenciaRugidoDecibel = potenciaRugidoDecibel;
     }
 
